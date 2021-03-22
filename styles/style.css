@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
 .content{
     margin: 0 auto;
     width: 95%;
@@ -17,25 +19,50 @@
 }
 
 .carousel-product .card{
-    border: 1px black solid;
     border-radius: 10px;
     width: 300px;
     height: 450px;
+    margin-top: 0px;
     margin-right: 10px;
     margin-left: 10px;
     display: inline-block;
+    text-align: center;
+    white-space: normal;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 7px 7px 5px #aaaaaa;
+    font-family: 'Bree Serif', serif;
+}
 
+.carousel-product .card ul{
+    padding: 0;
+    list-style: none;
+}
+
+.carousel-product .card ul li{
+    margin-bottom: 25px;
+}
+
+.offer{
+    border-top:  solid 4px rgb(231, 255, 95);
 }
 
 .product-description{
     background-color: rgb(231, 255, 95);
     width: 400px;
-    height: 452px;
+    height: 462px;
     border-top-left-radius: 800px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     position: relative;
     margin-left: 69%;
+    font-family: 'Bree Serif', serif;
+}
+
+.prod-prec{
+    color: rgb(121, 0, 0);
+    font-weight: bolder;
+    height: 20px;
 }
 
 .product-description .content{
@@ -62,4 +89,19 @@
     overflow-y: scroll;
     overflow: hidden;
     height: 100px;    
+}
+
+.btn-comprar{
+    border: solid 2px rgba(1, 111, 161,1);
+    color: rgba(1, 111, 161,1);
+    font-size: 18px;
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 15px 50px;
+    border-radius: 10px;
+}
+
+.btn-comprar:hover{
+    background-color: rgba(1, 111, 161,1);
+    color: white;
 }

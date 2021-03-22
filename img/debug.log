@@ -1,0 +1,3 @@
+[0320/103724.811:WARNING:ipc_message_attachment_set.cc(49)] MessageAttachmentSet destroyed with unconsumed attachments: 0/1
+[0320/103725.045:ERROR:browser_gpu_channel_host_factory.cc(139)] Failed to launch GPU process.
+[0320/103838.749:ERROR:local_storage_context_mojo.cc(706)] Lost connection to database
